@@ -1,8 +1,31 @@
 
+*/ {
+box-sizing: border-box;
+}
 
+.top-header {
+    height: 300px;
+    width: 850px;
+    background-color: blue;
+    margin: 0px auto;
+}
+.nav-bar{
+    height: 50px;
+    width: 850px;
+    background-color: wheat;
+    margin: 0px auto;
+}
+.face-plant {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    border: black solid 1px;
+    border-radius: 3%;
+    position: relative;
+    top: -125px;
+    left:  70px;
 
-
-
+}
 
 
 
