@@ -13,10 +13,26 @@ body {
     margin: 0px auto;
 }
 .nav-bar{
+    position: relative;
+    top: -20px;
+    left: 0px;
     height: 35px;
     width: 850px;
     background-color: white;
     margin: 0px auto;
+}
+ul {
+   position: relative;
+   left: 100px;
+   top: 7px;
+   list-style: none;
+
+}
+li {
+    float: left;
+    padding: 2px 5px 2px 5px;
+    border-left: 1px solid black;
+
 }
 .face-plant {
     height: 100px;
@@ -25,7 +41,7 @@ body {
     border: black solid 1px;
     border-radius: 3%;
     position: relative;
-    top: -110px;
+    top: -130px;
     left:  70px;
 
 }
