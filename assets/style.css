@@ -12,11 +12,17 @@ body {
     background-color: blue;
     margin: 0px auto;
 }
+.buttons {
+    position: absolute;
+    right: 350px;
+    top: 260px;
+
+} 
 .nav-bar{
     position: relative;
     top: -20px;
     left: 0px;
-    height: 35px;
+    height: 40px;
     width: 850px;
     background-color: white;
     margin: 0px auto;
@@ -31,20 +37,31 @@ ul {
 li {
     float: left;
     padding: 2px 5px 2px 5px;
-    border-left: 1px solid black;
+    border-right: 1px solid black;
 
 }
 .face-plant {
+    margin: 0px auto;
     height: 100px;
     width: 100px;
     background-color: blue;
     border: black solid 1px;
-    border-radius: 3%;
+    border-radius: 1.5%;
     position: relative;
     top: -130px;
-    left:  70px;
+    left: -360px;
 
 }
-
-
-
+h1 {
+    position: absolute;
+    top: 200px;
+    left: 475px;
+    margin: 0px;
+    color: white;
+}
+h2 {
+    position: absolute;
+    top: 250px;
+    left: 475px;
+}
+    
