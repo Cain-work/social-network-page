@@ -9,7 +9,7 @@ body {
 .top-header {
     height: 300px;
     width: 850px;
-    background-color: blue;
+    background-color: rgb(46, 46, 238);
     margin: 0px auto;
 }
 .buttons {
@@ -30,9 +30,8 @@ body {
 ul {
    position: relative;
    left: 130px;
-   top: 3px;
+   top: 10px;
    list-style: none;
-
 }
 li {
     float: left;
@@ -44,7 +43,7 @@ li {
     margin: 0px auto;
     height: 150px;
     width: 150px;
-    background-color: blue;
+    background-color: rgb(46, 46, 238);
     border: black solid 1px;
     border-radius: 1.5%;
     position: relative;
@@ -66,4 +65,29 @@ h2 {
     margin: 0px;
     color: white;
 }
+ .leftcolumn {
+     margin: 0px auto;
+     height: 100px;
+     width: 328px;
+     background-color: whitesmoke;
+     position: relative;
+     top: -160px;
+     left: -262px;
+     text-orientation: inherit;
+ }
+
+.rightcolumn {
+    margin: 0px auto;
+    height: 200px;
+    width: 512px;
+    background-color: whitesmoke;
+    position: relative;
+    top: -260px;
+    left: 170px;
     
+}
+
+
+
+
+
